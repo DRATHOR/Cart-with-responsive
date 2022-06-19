@@ -1,0 +1,90 @@
+.cart_section {
+    max-width: 928px;
+
+    margin: auto;
+}
+
+.sub_section {
+    background-color: white;
+}
+
+.sections {
+    max-width: 928px;
+    margin: auto;
+    // background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.sub_section_date {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.sub_section_billing {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 16px 8px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.border_box_card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+
+.section {
+    background-color: white;
+    width: 100%;
+}
+
+.bottom_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E4E4E4;
+    text-align: center; // font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #66332B;
+}
+
+.cart_title {
+    font-weight: 700 !important;
+    color: #34495E;
+}
+
+.apply_mpq{
+    color: #66332B !important;
+    font-weight: 700 !important;
+    padding-top: 10px;
+    
+}
+.increament_button{
+    width: 41px;
+    height: 41px;
+  background: #F6F8FA;
+/* Dark Blue Gray_2 */
+
+border: 0.7px solid #8894A0;
+border-radius: 2.8px;
+}
+.input_increament{
+width: 50px;
+height: 37px;
+border: 0.7px solid #8894A0;
+border-radius: 2.8px;
+}

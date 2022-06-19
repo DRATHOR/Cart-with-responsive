@@ -1,0 +1,62 @@
+.list_card_container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.list_card_header {
+    display: flex;
+    justify-content: space-between;
+
+    h6 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+.list_card_title {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.list_card_footer {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+
+
+        /* Dark Blue Gray_2 */
+
+        color: #8894A0;
+    }
+
+    .list_card_status {
+
+        width: 56px;
+        height: 20px;
+        // padding: 8px 14px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(23, 168, 95, 0.2);
+        border-radius: 50px;
+
+        h5 {
+            font-size: 12px;
+            line-height: 14px;
+            color: #17A85F;
+        }
+
+    }
+}

@@ -1,0 +1,26 @@
+.NavBar-Container{
+    position:sticky;
+    top:0;
+    z-index: 3;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo_and_title_container{
+        display:flex;
+        align-items: center;
+        color:white;
+        padding:5px 16px;
+        h4{
+            font-size: 25px;
+        }
+    }
+    .notification-container{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:220px;
+        padding-right: 16px;
+    }
+}

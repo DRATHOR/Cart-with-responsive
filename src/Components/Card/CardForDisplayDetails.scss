@@ -1,0 +1,27 @@
+.Card_for_dispaly_details_container {
+  display: flex;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding:.5rem 1rem;
+    min-height:4rem;
+  
+    
+  }
+  :hover{
+    cursor: pointer;
+  }
+}
+.lable_class{
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: #66332B !important;
+  font-weight: 600 !important;
+}
