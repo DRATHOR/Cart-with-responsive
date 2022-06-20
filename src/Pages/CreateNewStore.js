@@ -9,19 +9,23 @@ import TitleBar from '../Components/TitleBar/TitleBar'
 import DynamicForm from '../Dyanamic/DynamicForm'
 import { newDoor } from '../Jsons/ConfigureNewDoor'
 import { createFormData } from '../Jsons/CreateFormData'
+import { updateState } from '../Redux/common/action'
+import { useDispatch } from 'react-redux';
 import './CreateNewStore.scss'
 
 const CreateNewStore = () => {
-  const navigate=useNavigate();
-const footerButtons=[
-  {
-    name:'PREVIEW',
-  },
-{
-  name:'ADD TO CART',
-  onclick:()=>navigate('/cart'),
-}
-]
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  dispatch(updateState({ flag: true, component: 'create-store', message: 'Configure a new door', paging: '2 of 3', cartRef: '' }))
+  const footerButtons = [
+    {
+      name: 'PREVIEW',
+    },
+    {
+      name: 'ADD TO CART',
+      onclick: () => navigate('/cart'),
+    }
+  ]
   return (
     <>
 
@@ -33,15 +37,15 @@ const footerButtons=[
             <TitleBar title={item.title} />
             <DynamicForm item={item} />
           </div>
-          
+
         })
       }
       <div className='config_item'>
-      <CardForDisplayDetails  showCheckbox title={'Special Configuration Request'} lableBold/>
-      <CardForDisplayDetails title={'Torsion Spring Inquiry'} lableBold />
-      <CardForDisplayDetails title={'Additional Information'} lableBold />
+        <CardForDisplayDetails showCheckbox title={'Special Configuration Request'} lableBold />
+        <CardForDisplayDetails title={'Torsion Spring Inquiry'} lableBold />
+        <CardForDisplayDetails title={'Additional Information'} lableBold />
       </div>
-    
+
 
       {/* <CardForDisplayDetails title={item?.title} description={item.description} />
       <CardForDisplayDetails title={item?.title} description={item.description} /> */}

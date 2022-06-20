@@ -6,7 +6,7 @@ import './SimpleListView.scss'
 
 
 const SimpleListView = ({ list }) => {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   return (
     <div className='p-16'>
       {list?.map(listItem => {

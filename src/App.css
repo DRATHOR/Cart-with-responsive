@@ -46,6 +46,9 @@
   margin:auto;
   background-color: white;
 }
+.width-100{
+  width:100%;
+}
 .mb-16{
   margin-bottom: 16px;
 }
@@ -168,3 +171,4 @@ font-weight: 700 !important;
   height: 100vh;
 }
 .border-right{border-right: 0px solid #E4E4E4 !important;}
+
